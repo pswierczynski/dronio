@@ -45,7 +45,7 @@ The codebase is intentionally lightweight and self-contained, with no npm depend
 | Styling | Custom CSS3 (no framework) |
 | Scripting | Vanilla JavaScript (`js/main.js`) |
 | Fonts | Google Fonts — DM Sans (300, 400, 500, 700) |
-| Contact form | [Formspree](https://formspree.io) (form ID: `mdayaaor`) |
+| Contact form | [Formspree](https://formspree.io) |
 | Analytics | Google Analytics 4 (GA4 placeholder in `<head>`) |
 | SEO | Full meta tags, Open Graph, Twitter Card, Schema.org JSON-LD |
 
@@ -126,7 +126,7 @@ Before going live, replace the following placeholder values in `index.html`:
 | `<head>` — canonical URL | `https://dronio.pl/` | Your domain |
 | `<head>` — OG/Twitter image | `https://dronio.pl/assets/images/og-image.jpg` | Your domain + OG image path |
 | Schema.org JSON-LD | `https://dronio.pl`, `kontakt@dronio.pl` | Your domain and contact email |
-| `<form action>` | `https://formspree.io/f/mdayaaor` | Your own [Formspree](https://formspree.io) form endpoint |
+| `<form action>` | `https://formspree.io/f/xxx` | Your own [Formspree](https://formspree.io) form endpoint |
 | Footer social links | `https://www.instagram.com/` etc. | Your actual social media profile URLs |
 
 ---
