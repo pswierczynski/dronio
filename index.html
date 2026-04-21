@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ============================================================
+       SEO — podmień meta tagi jeśli zmienisz ofertę lub obszar
+       ============================================================ -->
+  <title>dronio — zdjęcia i filmy z drona w Warszawie od 299 zł</title>
+  <meta name="description" content="Profesjonalne zdjęcia i filmy z drona w Warszawie i okolicach od 299 zł netto. Lot do 30 minut, 10 zdjęć, 1 film. Dojazd wliczony w cenę. Szybka realizacja." />
+  <meta name="keywords" content="zdjęcia dronem Warszawa, zdjęcia z drona Warszawa, filmy z drona Warszawa, tanie zdjęcia z drona, drono Warszawa 299 zł, fotografia dronem Warszawa, wideo z drona cena, zdjęcia lotnicze Warszawa, filmowanie dronem Warszawa okolicе, drono.pl" />
+  <meta name="author" content="dronio.pl" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://dronio.pl/" />
+
+  <!-- Open Graph (Facebook, LinkedIn) -->
+  <meta property="og:title" content="dronio — zdjęcia i filmy z drona w Warszawie od 299 zł" />
+  <meta property="og:description" content="Profesjonalne zdjęcia i filmy z drona w Warszawie i okolicach od 299 zł netto. Szybka realizacja, dojazd wliczony." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://dronio.pl/" />
+  <meta property="og:image" content="https://dronio.pl/assets/images/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:locale" content="pl_PL" />
+  <meta property="og:site_name" content="dronio.pl" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="dronio — zdjęcia i filmy z drona w Warszawie od 299 zł" />
+  <meta name="twitter:description" content="Profesjonalne zdjęcia i filmy z drona w Warszawie i okolicach od 299 zł netto." />
+  <meta name="twitter:image" content="https://dronio.pl/assets/images/og-image.jpg" />
+
+  <!-- Schema.org — LocalBusiness structured data (pomaga w SEO lokalnym) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "dronio.pl",
+    "description": "Profesjonalne zdjęcia i filmy z drona w Warszawie i okolicach od 299 zł netto.",
+    "url": "https://dronio.pl",
+    "email": "kontakt@dronio.pl",
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "Warszawa i okolice"
+    },
+    "priceRange": "od 299 zł netto",
+    "serviceType": "Fotografia i filmowanie dronem",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Oferta dronio",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Standardowa sesja dronem"
+          },
+          "price": "299",
+          "priceCurrency": "PLN"
+        }
+      ]
+    }
+  }
+  </script>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/images/favicon.png" />
+
+  <!-- ============================================================
+       GOOGLE ANALYTICS — podmień G-XXXXXXXXXX na swoje ID
+       Znajdziesz je w: analytics.google.com → Admin → Data Streams
+       ============================================================ -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+
+  <!-- ============================================================
+       GOOGLE SEARCH CONSOLE — podmień content na swój kod weryfikacyjny
+       Znajdziesz go w: search.google.com/search-console → Weryfikacja
+       ============================================================ -->
+  <!-- <meta name="google-site-verification" content="TWOJ_KOD_WERYFIKACYJNY" /> -->
+
+  <!-- ============================================================
+       META PIXEL (Facebook Ads) — podmień XXXXXXXXXXXXXXXX na swoje Pixel ID
+       Znajdziesz je w: business.facebook.com → Events Manager
+       ============================================================ -->
+  <!--
+  <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+    document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', 'XXXXXXXXXXXXXXXX');
+    fbq('track', 'PageView');
+  </script>
+  -->
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,300&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!--
+  ================================================================
+  HERO — ekran startowy z filmem w tle
+  ================================================================
+  PODMIANA FILMÓW:
+    Desktop (laptop, monitor): assets/video/hero-desktop.mp4
+    Mobile / tablet:           assets/video/hero-mobile.mp4
+  Zalecenia: MP4 H.264, desktop min. 1920x1080, mobile min. 720x1280,
+  czas 15-30 s, wyciszony, bez napisów.
+  ================================================================
+  -->
+  <section class="hero" aria-label="Ekran startowy">
+    <div class="hero__video-wrap">
+      <video class="hero__video hero__video--desktop" autoplay muted loop playsinline preload="auto" aria-hidden="true">
+        <source src="assets/video/hero-desktop.mp4" type="video/mp4" />
+      </video>
+      <video class="hero__video hero__video--mobile" autoplay muted loop playsinline preload="auto" aria-hidden="true">
+        <source src="assets/video/hero-mobile.mp4" type="video/mp4" />
+      </video>
+    </div>
+
+    <div class="hero__content">
+      <img class="hero__logo" src="assets/images/dronio_logo_white.png" alt="dronio" width="200" height="auto" />
+      <p class="hero__sub">Zdjęcia i filmy z drona</p>
+    </div>
+
+    <a href="#oferta" class="hero__scroll" aria-label="Przewiń w dół">
+      <svg class="hero__arrow" viewBox="0 0 24 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <line x1="12" y1="0" x2="12" y2="32" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        <polyline points="5,24 12,32 19,24" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      </svg>
+    </a>
+  </section>
+
+  <!-- ============================================================
+       CO FOTOGRAFUJEMY — jasne tło
+       ============================================================ -->
+  <section class="section section--light" id="oferta" aria-labelledby="oferta-heading">
+    <div class="container">
+      <div class="section__intro reveal">
+        <h2 class="section__heading" id="oferta-heading">Co fotografujemy</h2>
+        <p class="section__lead">Tworzymy zdjęcia i filmy z drona na terenie Warszawy i okolic, zapewniając indywidualne podejście oraz pełne dopasowanie materiału do celu projektu - niezależnie od tego, czy chodzi o promocję, sprzedaż czy dokumentację wizualną. Specjalizujemy się w profesjonalnych zdjęciach i filmowaniu z powietrza, realizując zdjęcia dronem w Warszawie i okolicach dla klientów indywidualnych oraz biznesowych.</p>
+      </div>
+      <ul class="offer-grid">
+        <li class="offer-card reveal"><span class="offer-card__num" aria-hidden="true">01</span><div><strong>Budynki i nieruchomości</strong><p>Domy, apartamenty, biurowce, inwestycje deweloperskie. Ujęcia elewacji, dachu, kominów, otoczenia i położenia.</p></div></li>
+        <li class="offer-card reveal"><span class="offer-card__num" aria-hidden="true">02</span><div><strong>Działki i tereny</strong><p>Mapowanie obszaru, pokazanie sąsiedztwa, dostępności i charakteru terenu.</p></div></li>
+        <li class="offer-card reveal"><span class="offer-card__num" aria-hidden="true">03</span><div><strong>Przedmioty i produkty</strong><p>Duże obiekty, maszyny, pojazdy i instalacje w naturalnym kontekście.</p></div></li>
+        <li class="offer-card reveal"><span class="offer-card__num" aria-hidden="true">04</span><div><strong>Natura i krajobraz</strong><p>Rzeki, lasy, parki, tereny zielone. Ujęcia o świcie i o zachodzie słońca.</p></div></li>
+        <li class="offer-card reveal"><span class="offer-card__num" aria-hidden="true">05</span><div><strong>Sesje zdjęciowe</strong><p>Portrety, reportaże, eventy i sesje plenerowe z perspektywy lotu ptaka.</p></div></li>
+        <li class="offer-card reveal"><span class="offer-card__num" aria-hidden="true">06</span><div><strong>Materiały reklamowe</strong><p>Profesjonalne ujęcia do kampanii, social media, stron www i prezentacji.</p></div></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       STANDARDOWA OFERTA — ciemne tło
+       ============================================================ -->
+  <section class="section section--dark" id="cennik" aria-labelledby="cennik-heading">
+    <div class="container">
+      <h2 class="section__heading reveal" id="cennik-heading">Standardowa oferta</h2>
+
+      <div class="pricing-layout">
+
+        <div class="pricing-layout__text">
+          <div class="price-block reveal">
+            <div class="price-block__amount">299 <span>zł netto</span></div>
+            <ul class="price-block__list">
+              <li><span class="price-block__marker" aria-hidden="true">—</span> Lot do 30 minut</li>
+              <li><span class="price-block__marker" aria-hidden="true">—</span> 10 profesjonalnych zdjęć w wysokiej rozdzielczości</li>
+              <li><span class="price-block__marker" aria-hidden="true">—</span> 1 film w jakości 4k bez montażu</li>
+              <li><span class="price-block__marker" aria-hidden="true">—</span> Dojazd operatora na terenie Warszawy i okolic wliczony w cenę</li>
+            </ul>
+            <p class="price-block__note">
+              Potrzebujesz więcej zdjęć, dłuższego lotu lub niestandardowego materiału?
+              Skontaktuj się z nami — przygotujemy ofertę indywidualną.
+            </p>
+            <a href="#kontakt" class="btn btn--light reveal">Zapytaj o termin</a>
+          </div>
+        </div>
+
+        <!--
+          PODMIANA ZDJĘCIA W SEKCJI OFERTY:
+          Umieść plik JPG/WEBP w assets/images/ i zmień src poniżej.
+          Zalecane proporcje: 1:1 (kwadrat), min. 800x800 px.
+        -->
+        <div class="pricing-layout__image reveal">
+          <img
+            src="assets/images/offer-photo.jpg"
+            alt="Zdjęcie z drona — przykład realizacji"
+            width="600"
+            height="600"
+            loading="lazy"
+          />
+          <div class="image__overlay" aria-hidden="true"></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       REALIZACJE — jasne tło
+       ============================================================ -->
+  <section class="section section--light" id="realizacje" aria-labelledby="realizacje-heading">
+    <div class="container">
+      <h2 class="section__heading reveal" id="realizacje-heading">Realizacje</h2>
+    </div>
+
+    <!--
+      PODMIANA ZDJĘĆ GALERII:
+      Umieść 9 plików JPG/WEBP w assets/images/ (zalecane 1:1, min. 800x800 px).
+      Zmień atrybuty src, data-src oraz alt każdego elementu .gallery__item.
+    -->
+    <div class="gallery" role="list" aria-label="Galeria zdjęć z drona">
+      <button class="gallery__item reveal" data-src="assets/images/photo-01.jpg" aria-label="Powiększ zdjęcie 1" role="listitem">
+        <img src="assets/images/photo-01.jpg" alt="Widok z drona na zabudowę miejską" loading="lazy" />
+      </button>
+      <button class="gallery__item reveal" data-src="assets/images/photo-02.jpg" aria-label="Powiększ zdjęcie 2" role="listitem">
+        <img src="assets/images/photo-02.jpg" alt="Fotografia lotnicza działki budowlanej" loading="lazy" />
+      </button>
+      <button class="gallery__item reveal" data-src="assets/images/photo-03.jpg" aria-label="Powiększ zdjęcie 3" role="listitem">
+        <img src="assets/images/photo-03.jpg" alt="Krajobraz lasu fotografowany z drona" loading="lazy" />
+      </button>
+      <button class="gallery__item reveal" data-src="assets/images/photo-04.jpg" aria-label="Powiększ zdjęcie 4" role="listitem">
+        <img src="assets/images/photo-04.jpg" alt="Budynek biurowy widok z lotu ptaka" loading="lazy" />
+      </button>
+      <button class="gallery__item reveal" data-src="assets/images/photo-05.jpg" aria-label="Powiększ zdjęcie 5" role="listitem">
+        <img src="assets/images/photo-05.jpg" alt="Rzeka i tereny zielone fotografowane dronem" loading="lazy" />
+      </button>
+      <button class="gallery__item reveal" data-src="assets/images/photo-06.jpg" aria-label="Powiększ zdjęcie 6" role="listitem">
+        <img src="assets/images/photo-06.jpg" alt="Nieruchomość na sprzedaż zdjęcia z drona" loading="lazy" />
+      </button>
+      <button class="gallery__item reveal" data-src="assets/images/photo-07.jpg" aria-label="Powiększ zdjęcie 7" role="listitem">
+        <img src="assets/images/photo-07.jpg" alt="Sesja zdjęciowa z drona event plenerowy" loading="lazy" />
+      </button>
+      <button class="gallery__item reveal" data-src="assets/images/photo-08.jpg" aria-label="Powiększ zdjęcie 8" role="listitem">
+        <img src="assets/images/photo-08.jpg" alt="Reklama produktu zdjęcia dronem" loading="lazy" />
+      </button>
+      <button class="gallery__item reveal" data-src="assets/images/photo-09.jpg" aria-label="Powiększ zdjęcie 9" role="listitem">
+        <img src="assets/images/photo-09.jpg" alt="Panorama Warszawy z drona" loading="lazy" />
+      </button>
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Podgląd zdjęcia" hidden>
+      <button class="lightbox__close" id="lightboxClose" aria-label="Zamknij">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <line x1="5" y1="5" x2="19" y2="19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          <line x1="19" y1="5" x2="5" y2="19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+      </button>
+      <img class="lightbox__img" id="lightboxImg" src="" alt="" />
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FORMULARZ — ciemne tło
+       Formspree ID: mdayaaor
+       Odbiorca (kontakt@dronio.pl) ustawiany w panelu Formspree:
+       https://formspree.io/forms/mdayaaor/integration
+       ============================================================ -->
+  <section class="section section--dark" id="kontakt" aria-labelledby="kontakt-heading">
+    <div class="container container--narrow">
+      <h2 class="section__heading reveal" id="kontakt-heading">Wycena i kontakt</h2>
+      <p class="section__lead reveal">
+        Napisz do nas — odpowiemy w ciągu 24 godzin i ustalimy termin realizacji.
+      </p>
+
+      <form
+        class="form reveal"
+        action="https://formspree.io/f/mdayaaor"
+        method="POST"
+        novalidate
+        aria-label="Formularz kontaktowy"
+      >
+        <div class="form__group">
+          <label class="form__label" for="name">Imię i nazwisko</label>
+          <input class="form__input" type="text" id="name" name="name" autocomplete="name" required placeholder="Jan Kowalski" />
+        </div>
+
+        <div class="form__group">
+          <label class="form__label" for="email">Adres e-mail</label>
+          <input class="form__input" type="email" id="email" name="email" autocomplete="email" required placeholder="jan@przyklad.pl" />
+        </div>
+
+        <div class="form__group">
+            <label class="form__label" for="termin">Preferowany termin</label>
+            <input class="form__input form__input--date" type="date" id="termin" name="termin" />
+          </div>
+
+        <div class="form__group">
+          <label class="form__label" for="oferta-typ">Rodzaj oferty</label>
+          <div class="form__select-wrap">
+            <select class="form__select" id="oferta-typ" name="oferta-typ">
+              <option value="standardowa">Standardowa — 299 zł netto</option>
+              <option value="indywidualna">Indywidualna wycena — ustalana po kontakcie</option>
+            </select>
+            <svg class="form__select-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <polyline points="6,9 12,15 18,9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+            </svg>
+          </div>
+        </div>
+
+        <div class="form__group">
+          <label class="form__label" for="message">Opis zlecenia i lokalizacja</label>
+          <textarea class="form__textarea" id="message" name="message" rows="5" required placeholder="Krótki opis miejsca / obiektu, cel realizacji, adres lub nazwa miejscowości..."></textarea>
+        </div>
+        
+        <!-- Pole honeypot — pułapka na spamboty, nie pokazuj go użytkownikom -->
+        <input type="text" name="_gotcha" style="display:none" />
+        <div class="form__footer">
+        <button class="btn btn--light" type="submit">Wyślij zapytanie</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       STOPKA — jasne tło
+       ============================================================ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer__inner">
+
+      <a class="footer__email" href="mailto:kontakt@dronio.pl">kontakt@dronio.pl</a>
+
+      <nav class="footer__social" aria-label="Social media dronio">
+
+        <a class="footer__social-link" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram dronio (otwiera się w nowym oknie)">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5" stroke="currentColor" stroke-width="1.5"/>
+            <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.5"/>
+            <circle cx="17.5" cy="6.5" r="1" fill="currentColor"/>
+          </svg>
+          Instagram
+        </a>
+
+        <a class="footer__social-link" href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook dronio (otwiera się w nowym oknie)">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          Facebook
+        </a>
+
+        <a class="footer__social-link" href="https://www.pinterest.com/" target="_blank" rel="noopener noreferrer" aria-label="Pinterest dronio (otwiera się w nowym oknie)">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M12 2C6.477 2 2 6.477 2 12c0 4.236 2.636 7.855 6.356 9.312-.088-.791-.167-2.005.035-2.868.181-.78 1.172-4.97 1.172-4.97s-.299-.598-.299-1.482c0-1.388.806-2.428 1.808-2.428.852 0 1.265.64 1.265 1.408 0 .858-.546 2.141-.828 3.33-.236.995.499 1.806 1.476 1.806 1.772 0 3.136-1.867 3.136-4.563 0-2.387-1.715-4.052-4.163-4.052-2.836 0-4.5 2.127-4.5 4.326 0 .857.33 1.776.742 2.278a.3.3 0 0 1 .069.286c-.076.313-.244.995-.277 1.134-.044.183-.145.222-.335.134-1.249-.581-2.03-2.407-2.03-3.874 0-3.154 2.292-6.052 6.608-6.052 3.469 0 6.165 2.473 6.165 5.776 0 3.447-2.173 6.22-5.19 6.22-1.013 0-1.966-.527-2.292-1.148l-.623 2.378c-.226.869-.835 1.958-1.244 2.621.937.29 1.931.446 2.962.446 5.522 0 10-4.477 10-10S17.522 2 12 2z" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          Pinterest
+        </a>
+
+      </nav>
+
+      <div class="footer__brand">
+        <!--
+          PODMIANA LOGO W STOPCE:
+          Zamień plik assets/dronio_logo.png na własne ciemne logo.
+        -->
+        <img
+          class="footer__logo"
+          src="assets/images/dronio_logo.png"
+          alt="dronio"
+          width="100"
+          height="auto"
+          loading="lazy"
+        />
+      </div>
+
+      <p class="footer__copy">
+        Copyright 
+        <svg class="footer__icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.5"/>
+          <path d="M15 9.5a4 4 0 1 0 0 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+        dronio.pl 2026
+      </p>
+
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
